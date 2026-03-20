@@ -8,7 +8,7 @@
 syntax = "proto3";
 package auth;
 
-option go_package = "tech-ip-sem2/proto/authpb";
+option go_package = "proto/authpb";
 
 service AuthService {
   rpc Verify(VerifyRequest) returns (VerifyResponse);
